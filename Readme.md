@@ -23,7 +23,10 @@ This is a simple command-line interface (CLI) application for managing tasks. Yo
 2. **Compile the source code:**
     ```bash
     chmod +x runs
-       Or
+    ./runs
+    ```
+    Or    
+   ```bash
    scalac Task-tracker.scala Task.scala StateModel.scala Serializer.scala
    
 3. **Run the application:**
