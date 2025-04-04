@@ -1,0 +1,8 @@
+#!/bin/bash
+script_dir=$(dirname "$0")
+file1_path="$script_dir/Task-tracker.scala"
+file2_path="$script_dir/Task.scala"
+file3_path="$script_dir/StateModel.scala "
+file4_path="$script_dir/Serializer.scala "
+
+scalac $file1_path $file2_path $file3_path $file4_path
